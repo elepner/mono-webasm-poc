@@ -5,3 +5,4 @@
 - Unzip it
 - Set environment variable `WASM_SDK` to point to the unzipped folder
 - run `wasm-compile.ps1`
+- navigate to `output/publish` and run `python server.py` using python (install python `choco install python --version=3.6.7`)
