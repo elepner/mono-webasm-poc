@@ -35,16 +35,11 @@
       },
 
       init: function () {
-        debugger;
         this.int_add = Module.mono_bind_static_method("[MyLibrary] MyLibrary.Foo:Sum");
         this.enrichObject = Module.mono_bind_static_method("[MyLibrary] MyLibrary.Foo:EnrichObject");
         this.output = document.getElementById("output");
         this.button = document.getElementById("button");
         this.button.disabled = false;
-
-
-        // // initialize geolocation sample
-        // BINDING.call_static_method("[sample] GeoLocation.Program:Main", []);
       }
     };
 
